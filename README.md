@@ -35,3 +35,11 @@
 ## Run Bot
 
 1. When you are in **(venv)** run: `python main.py`.
+
+## Linux Service
+
+1. Move `jazzjail.service` (this file contains default settings for ec2 server) file to `/etc/systemd/system/` on your Linux server.
+2. Run:
+- `systemctl daemon-reload`
+- `systemctl enable jazzjail.service`
+- `systemctl start jazzjail.service
