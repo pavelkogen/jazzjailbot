@@ -1,6 +1,7 @@
-# jazzjailbot
+# jazzjailbot 
+<img src="./cat.png" width="100" height="100">
 
-Бот для ловли Джаза в Telegram <img src="./cat.png" align="right" width="30" height="30">
+Бот для ловли Джаза в Telegram 
 
 # Setup
 
