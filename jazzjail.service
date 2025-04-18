@@ -1,0 +1,14 @@
+[Unit]
+Description=JazzJail Python Service
+After=network.target
+
+[Service]
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/home/ec2-user/jazzjail
+ExecStart=/home/ec2-user/jazzjail/venv/bin/python /home/ec2-user/jazzjail/main.py
+Restart=always
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
