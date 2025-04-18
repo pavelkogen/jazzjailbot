@@ -43,4 +43,5 @@
      - `systemctl daemon-reload`;
      - `systemctl enable jazzjail.service`;
      - `systemctl start jazzjail.service`.
-2 . File `jazzjail.service` contains default settings for ec` server.
+
+2 . File `jazzjail.service` contains default settings for ec2 server.
