@@ -38,8 +38,9 @@
 
 ## Linux Service
 
-1. Move `jazzjail.service` (this file contains default settings for ec2 server) file to `/etc/systemd/system/` on your Linux server.
-2. Run:
-- `systemctl daemon-reload`
-- `systemctl enable jazzjail.service`
-- `systemctl start jazzjail.service
+1. On **Linux** server copy file `jazzjail.service` file to `/etc/systemd/system/` on your Linux server;
+   - Run:
+     - `systemctl daemon-reload`;
+     - `systemctl enable jazzjail.service`;
+     - `systemctl start jazzjail.service`.
+2 . File `jazzjail.service` contains default settings for ec` server.
